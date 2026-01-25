@@ -1,0 +1,52 @@
+* {
+    bg:     #000000;
+    fg:     #ffffff;
+    red:    #ff0000;
+}
+
+window {
+    background-color: @bg;
+    border: 0;
+    padding: 0;
+}
+
+mainbox {
+    background-color: @bg;
+    padding: 0;
+}
+
+inputbar {
+    enabled: false;
+}
+
+listview {
+    background-color: @bg;
+    spacing: 0;
+    padding: 0;
+    scrollbar: false;
+}
+
+element {
+    background-color: @bg;
+    text-color: @fg;
+    padding: 6;
+}
+
+element normal {
+    background-color: @bg;
+}
+
+element selected {
+    background-color: @red;
+    text-color: @fg;
+}
+
+element active {
+    background-color: @bg;
+    text-color: @fg;
+}
+
+element urgent {
+    background-color: @bg;
+    text-color: @fg;
+}

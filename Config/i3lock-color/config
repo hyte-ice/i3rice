@@ -1,0 +1,16 @@
+i3lock --nofork \
+  --color 000000 \
+  --inside-color 00000000 \
+  --insidever-color ff0000 \
+  --ring-color ff0000 \
+  --ringver-color ff0000 \
+  --ringwrong-color ff0000 \
+  --keyhl-color ffffff \
+  --bshl-color ffffff \
+  --line-color 00000000 \
+  --separator-color 00000000 \
+  --verif-color ff0000 \
+  --wrong-color ff0000 \
+  --noinput-text="" \
+  --verif-text="" \
+  --wrong-text=""

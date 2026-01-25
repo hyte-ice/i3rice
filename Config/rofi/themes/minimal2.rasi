@@ -1,0 +1,49 @@
+* {
+    font: "Noto Sans Mono 10";
+
+    bg: #000000;
+    fg: #ffffff;
+    sel: #aaaaaa;
+
+    background-color: @bg;
+    text-color: @fg;
+}
+
+window {
+    location: center;
+    width: 30%;
+    border: 0;
+    background-color: @bg;
+}
+
+mainbox {
+    padding: 6px;
+    background-color: @bg;
+}
+
+inputbar {
+    padding: 2px;
+    background-color: @bg;
+    text-color: @fg;
+}
+
+prompt {
+    enabled: false;
+}
+
+listview {
+    spacing: 1px;
+    scrollbar: false;
+    background-color: @bg;
+}
+
+element {
+    padding: 2px;
+    background-color: @bg;
+    text-color: @fg;
+}
+
+element selected {
+    background-color: @bg;
+    text-color: @sel;
+}

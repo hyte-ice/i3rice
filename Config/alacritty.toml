@@ -1,0 +1,74 @@
+# -----------------
+# Window
+# -----------------
+[window]
+decorations = "full"      # full | none | transparent (Wayland)
+padding = { x = 8, y = 8 }
+dynamic_padding = true
+opacity = 1.0
+
+# -----------------
+# Font (Noto Sans Mono)
+# -----------------
+[font]
+size = 7.5
+
+[font.normal]
+family = "Noto Sans Mono"
+style = "Regular"
+
+[font.bold]
+family = "Noto Sans Mono"
+style = "Bold"
+
+[font.italic]
+family = "Noto Sans Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "Noto Sans Mono"
+style = "Bold Italic"
+
+
+# -----------------
+# Colors (Black & White)
+# -----------------
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#ffffff"
+
+[colors.selection]
+text = "#000000"
+background = "#ffffff"
+
+[colors.normal]
+black   = "#000000"
+red     = "#ffffff"
+green   = "#ffffff"
+yellow  = "#ffffff"
+blue    = "#ffffff"
+magenta = "#ffffff"
+cyan    = "#ffffff"
+white   = "#ffffff"
+
+[colors.bright]
+black   = "#444444"
+red     = "#ffffff"
+green   = "#ffffff"
+yellow  = "#ffffff"
+blue    = "#ffffff"
+magenta = "#ffffff"
+cyan    = "#ffffff"
+white   = "#ffffff"
+
+# -----------------
+# Cursor
+# -----------------
+[cursor]
+style = "Block"
+unfocused_hollow = true
+

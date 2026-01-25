@@ -1,0 +1,47 @@
+* {
+    background: #000000;
+    foreground: #ffffff;
+    selected:   #ff0000;
+}
+
+window {
+    background-color: @background;
+    border: 0;
+    padding: 10;
+}
+
+mainbox {
+    background-color: @background;
+}
+
+inputbar {
+    background-color: @background;
+    text-color: @foreground;
+    padding: 5;
+}
+
+prompt {
+    text-color: @foreground;
+}
+
+entry {
+    text-color: @foreground;
+    background-color: @background;
+}
+
+listview {
+    background-color: @background;
+    spacing: 0;
+    scrollbar: false;
+}
+
+element {
+    background-color: @background;
+    text-color: @foreground;
+    padding: 5;
+}
+
+element selected {
+    background-color: @selected;
+    text-color: #ffffff;
+}

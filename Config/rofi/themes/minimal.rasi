@@ -1,0 +1,49 @@
+* {
+    font: "Noto Sans Mono 11";
+    background: #000000;
+    foreground: #ffffff;
+    selected-background: #ffffff;
+    selected-foreground: #000000;
+    border-color: #ffffff;
+}
+
+window {
+    location: center;
+    width: 30%;
+    background-color: @background;
+    border: 1px;
+    border-color: @border-color;
+}
+
+mainbox {
+    padding: 8px;
+    background-color: @background;
+}
+
+inputbar {
+    background-color: @background;
+    text-color: @foreground;
+    padding: 4px;
+    border: 0px;
+}
+
+prompt {
+    enabled: false;
+}
+
+listview {
+    background-color: @background;
+    spacing: 2px;
+    scrollbar: false;
+}
+
+element {
+    padding: 4px;
+    background-color: @background;
+    text-color: @foreground;
+}
+
+element selected {
+    background-color: @selected-background;
+    text-color: @selected-foreground;
+}

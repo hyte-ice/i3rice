@@ -1,0 +1,29 @@
+# -----------------
+# Font (Noto Sans Mono)
+# -----------------
+[font]
+size = 8
+
+[font.normal]
+family = "Noto Sans Mono"
+style = "Regular"
+
+[font.bold]
+family = "Noto Sans Mono"
+style = "Bold"
+
+[font.italic]
+family = "Noto Sans Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "Noto Sans Mono"
+style = "Bold Italic"
+
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+
+[window]
+padding = { x = 5, y = 4 }
+opacity = 1.0

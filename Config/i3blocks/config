@@ -1,0 +1,64 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+
+# Global properties
+separator=true
+separator_block_width=15
+
+[greetings]
+command=echo "Hi $USER (¬‿¬ )"
+interval=once
+
+[power_profile]
+command=~/.config/i3blocks/power_profile.sh
+interval=once
+signal=2
+
+[cpu_temp]
+command=~/.config/i3blocks/cpu_temp.sh
+interval=5
+
+[wifi]
+command=~/.config/i3blocks/wifi.sh
+interval=30
+
+[mic]
+command=~/.config/i3blocks/mic.sh
+interval=once
+signal=2
+
+[volume]
+command=~/.config/i3blocks/volume.sh
+interval=once
+signal=1
+
+[brightness]
+command=~/.config/i3blocks/brightness.sh
+interval=once
+format=Brightness: %output%%
+signal=3
+
+[battery]
+command=~/.config/i3blocks/battery.sh
+interval=30
+
+[time]
+command=date '+%Y-%m-%d %H:%M:%S'
+interval=1
+
+[suspend]
+full_text=⏾
+command=test "$BLOCK_BUTTON" = "1" && systemctl suspend
+
+[restart]
+full_text=↻
+command=test "$BLOCK_BUTTON" = "1" && systemctl reboot
+
+[shutdown]
+full_text=⏻
+command=test "$BLOCK_BUTTON" = "1" && systemctl poweroff
